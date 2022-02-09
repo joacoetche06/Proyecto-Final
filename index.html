@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    
+    <script src="./jquery-3.6.0.min.js"></script>
+    
+    <script defer src="stock.json"></script>
+
+    <script defer src="app.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="clase-body">
+    <div class="card">
+      <div class="bd-navbar">  
+        Tienda de Ropa Deportiva
+      </div>
+      <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a id="productos-bar" class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a id="contacto-bar" class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="card-body">
+        <h5 class="card-title">Contamos con los mejores precios</h5>
+        <br>
+        <p class="card-text">Todo lo que necesitás con la mejor calidad!</p>
+      </div>
+    </div>
+
+    
+
+    <h4 class="titulos">Carrito:</h4>
+    <table class="table">
+    <thead>
+      <tr class="encabezado">
+        <th scope="col">ID</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Precio</th>
+      </tr>
+    </thead>
+    <tbody id="tabla" class="tabla">
+    
+    </tbody>
+
+    </table>
+  <hr>
+    <h5 id="precio-final" class="precio-final">
+
+    </h5>
+
+  <a href="./paginadepago.html"><button id="boton-carrito" type="button" class="btn btn-dark"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">Ir a Pagar</span></button></a> 
+
+  <hr>
+
+  <h6 id="productos" class="titulos">Nuestros Productos: </h6>
+  <section id="contenedor-productos">
+
+  </section>
+
+
+  <footer>
+    <div class="container" id="contacto-footer">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>CONTACTO</h1><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="mail"></div>	
+					<div class="col-2">
+						<a target="_blank" href="mailto:joacoetche2111@gmail.com.com"><img class="mail" src="img/001-mail.svg" alt=""></a
+              ></div>
+	  </div>
+  </footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>

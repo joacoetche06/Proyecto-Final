@@ -1,0 +1,21 @@
+[
+    {"id": 1, "tipo": "Joggins", "marcas": "Adidas", "talles": "M", "precio": 3150, "img": "./img/jogging.jpg"},
+    {"id": 2, "tipo": "Remeras", "marcas": "Nike", "talles": "S", "precio": 1200, "img": "./img/remera.jpg"},
+    {"id": 3, "tipo": "Buzos", "marcas": "Under Armour", "talles": "L", "precio": 2450, "img": "./img/buzo.jpg"},
+    {"id": 4, "tipo": "Shorts", "marcas": "Puma", "talles": "XL", "precio": 850, "img": "./img/short.jpg"},
+    {"id": 5, "tipo": "Musculosas", "marcas": "DC", "talles": "XL", "precio": 999, "img": "./img/musculosa.jpg"},
+    {"id": 6, "tipo": "Gorras", "marcas": "Nike", "talles": "S", "precio": 450, "img": "./img/gorra.jpg"},
+    {"id": 7, "tipo": "Zapatillas Deportivas", "marcas": "Nike", "talles": "37", "precio": 10999, "img": "./img/zapatilla.jpg"},
+    {"id": 8, "tipo": "Camperas", "marcas": "Lotto", "talles": "XXL", "precio": 1899, "img": "./img/campera.jpg"},
+    {"id": 9, "tipo": "Botines", "marcas": "Adidas", "talles": "Desde 38", "precio": 9999, "img": "./img/botin.jpg"},
+    {"id": 10, "tipo": "Calzas", "marcas": "Puma", "talles": "XS", "precio": 2500, "img": "./img/calza.jpg"},
+    {"id": 11, "tipo": "Buzos", "marcas": "Nike", "talles": "S", "precio": 2850, "img": "./img/buzo2.jpg"},
+    {"id": 12, "tipo": "Shorts", "marcas": "Adidas", "talles": "M", "precio": 750, "img": "./img/short2.jpg"},
+    {"id": 13, "tipo": "Musculosas", "marcas": "Rusty", "talles": "XLL", "precio": 899, "img": "./img/musculosa2.jpg"},
+    {"id": 14, "tipo": "Gorras", "marcas": "Puma", "talles": "XS", "precio": 490, "img": "./img/gorra2.jpg"},
+    {"id": 15, "tipo": "Zapatillas Deportivas", "marcas": "Adidas", "talles": "40", "precio": 15999, "img": "./img/zapatilla2.jpg"},
+    {"id": 16, "tipo": "Camperas", "marcas": "Nike", "talles": "L", "precio": 1999, "img": "./img/campera2.jpg"},
+    {"id": 17, "tipo": "Botines", "marcas": "Under Armour", "talles": "39", "precio": 12999, "img": "./img/botin2.jpg"},
+    {"id": 18, "tipo": "Calzas", "marcas": "Adidas", "talles": "S", "precio": 2000, "img": "./img/calza2.jpg"}
+]
+

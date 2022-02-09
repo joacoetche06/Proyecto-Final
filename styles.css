@@ -1,0 +1,110 @@
+.proyecto{
+    text-align: center;
+}
+
+.clase-body {
+    background-image: url('./img/fondo.jpg');
+}
+
+.table{
+    border-color: black;
+}
+
+#contenedor-productos {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.producto {
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px red;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.titulos {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.tabla {
+    color:black;
+    font-weight: 500;
+    font-size: 22px;
+} 
+
+/* .table {
+    background-color: palevioletred;
+} */
+
+.encabezado {
+    color: navy;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.mercadopago {
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border: none;
+}
+.precio-final {
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.boton-scroll {
+    background-color: darkgoldenrod;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 630px;
+    margin-bottom: 50px;
+}
+
+.bd-navbar {
+    font-size: x-large;
+    font-weight: 650;
+    background-color:white;
+}
+
+.card-body {
+    background-color:firebrick;
+}
+
+/* .card-title {
+    background-color:rgb(252, 170, 71);
+}
+
+.card-text {
+    background-color:rgb(247, 165, 66);
+} */
+
+.mail {
+    width: 70%;
+}
+
+#nav-bar {
+    background-color: whitesmoke;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
